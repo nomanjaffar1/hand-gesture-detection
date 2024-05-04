@@ -1,1 +1,4 @@
 # hand-gesture-detection
+<br>
+
+This repository contains Python code for a convolutional neural network (CNN) model aimed at classifying hand gesture images (letters A-Z). Requirements include Python 3.x, OpenCV (cv2), NumPy, Keras, and Matplotlib. To use, organize your dataset under Gesture Image Data with subfolders for each gesture (A-Z), update the DIRECTORY variable, and run the provided code to preprocess data and train the model. Adjust training parameters like epochs and validation split as needed. Use the predict_gesture() function for classifying new gesture images by updating test_image_path with the image location. The project includes a Jupyter Notebook (gesture_prediction.ipynb) and this README. Customize variables and functions to suit your specific needs.
